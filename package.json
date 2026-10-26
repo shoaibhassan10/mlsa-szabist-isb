@@ -1,0 +1,35 @@
+{
+  "name": "mlsa-szabist-islamabad",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "setup:appwrite": "node scripts/setup-appwrite.mjs"
+  },
+  "dependencies": {
+    "appwrite": "^16.1.0",
+    "framer-motion": "^11.11.0",
+    "lucide-react": "^0.460.0",
+    "next": "^16.4.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "^10.4.20",
+    "dotenv": "^18.0.9",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^16.4.3",
+    "node-appwrite": "^31.0.0",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^4.3.3",
+    "typescript": "~5.6.2"
+  }
+}
